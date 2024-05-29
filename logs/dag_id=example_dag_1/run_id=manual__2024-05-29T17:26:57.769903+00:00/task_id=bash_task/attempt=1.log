@@ -1,0 +1,24 @@
+[2024-05-29T17:27:00.895+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-29T17:27:00.913+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_dag_1.bash_task manual__2024-05-29T17:26:57.769903+00:00 [queued]>
+[2024-05-29T17:27:00.922+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_dag_1.bash_task manual__2024-05-29T17:26:57.769903+00:00 [queued]>
+[2024-05-29T17:27:00.922+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2024-05-29T17:27:00.938+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): bash_task> on 2024-05-29 17:26:57.769903+00:00
+[2024-05-29T17:27:00.945+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=2047) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-29T17:27:00.949+0000] {standard_task_runner.py:63} INFO - Started process 2049 to run task
+[2024-05-29T17:27:00.950+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'example_dag_1', 'bash_task', 'manual__2024-05-29T17:26:57.769903+00:00', '--job-id', '2522', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmp3ehykmf9']
+[2024-05-29T17:27:00.953+0000] {standard_task_runner.py:91} INFO - Job 2522: Subtask bash_task
+[2024-05-29T17:27:01.028+0000] {task_command.py:426} INFO - Running <TaskInstance: example_dag_1.bash_task manual__2024-05-29T17:26:57.769903+00:00 [running]> on host 6ecac41592ab
+[2024-05-29T17:27:01.168+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gurlenko.13032001@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_dag_1' AIRFLOW_CTX_TASK_ID='bash_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-29T17:26:57.769903+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-29T17:26:57.769903+00:00'
+[2024-05-29T17:27:01.171+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-29T17:27:01.174+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-05-29T17:27:01.175+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "Hi from bash operator"']
+[2024-05-29T17:27:01.198+0000] {subprocess.py:86} INFO - Output:
+[2024-05-29T17:27:01.199+0000] {subprocess.py:93} INFO - Hi from bash operator
+[2024-05-29T17:27:01.200+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-05-29T17:27:01.201+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-29T17:27:01.237+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=example_dag_1, task_id=bash_task, run_id=manual__2024-05-29T17:26:57.769903+00:00, execution_date=20240529T172657, start_date=20240529T172700, end_date=20240529T172701
+[2024-05-29T17:27:01.259+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-29T17:27:01.295+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-29T17:27:01.299+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

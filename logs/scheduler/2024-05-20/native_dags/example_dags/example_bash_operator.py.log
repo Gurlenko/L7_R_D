@@ -1,0 +1,973 @@
+[2024-05-20T01:05:45.147+0000] {processor.py:161} INFO - Started process (PID=18747) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T01:05:45.148+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T01:05:45.149+0000] {logging_mixin.py:188} INFO - [2024-05-20T01:05:45.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T01:05:45.163+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T01:05:45.194+0000] {logging_mixin.py:188} INFO - [2024-05-20T01:05:45.194+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T01:05:45.217+0000] {logging_mixin.py:188} INFO - [2024-05-20T01:05:45.217+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T01:05:45.236+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.096 seconds
+[2024-05-20T02:27:21.333+0000] {processor.py:161} INFO - Started process (PID=18806) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T02:27:21.337+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T02:27:21.339+0000] {logging_mixin.py:188} INFO - [2024-05-20T02:27:21.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T02:27:21.367+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T02:27:21.411+0000] {logging_mixin.py:188} INFO - [2024-05-20T02:27:21.411+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T02:27:21.463+0000] {logging_mixin.py:188} INFO - [2024-05-20T02:27:21.463+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T02:27:21.498+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.179 seconds
+[2024-05-20T04:26:16.124+0000] {processor.py:161} INFO - Started process (PID=18865) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T04:26:16.125+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T04:26:16.128+0000] {logging_mixin.py:188} INFO - [2024-05-20T04:26:16.128+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T04:26:16.142+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T04:26:16.174+0000] {logging_mixin.py:188} INFO - [2024-05-20T04:26:16.173+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T04:26:16.204+0000] {logging_mixin.py:188} INFO - [2024-05-20T04:26:16.203+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T04:26:16.227+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.110 seconds
+[2024-05-20T05:32:22.939+0000] {processor.py:161} INFO - Started process (PID=18924) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T05:32:22.942+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T05:32:22.944+0000] {logging_mixin.py:188} INFO - [2024-05-20T05:32:22.943+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T05:32:22.962+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T05:32:23.003+0000] {logging_mixin.py:188} INFO - [2024-05-20T05:32:23.003+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T05:32:23.034+0000] {logging_mixin.py:188} INFO - [2024-05-20T05:32:23.034+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T05:32:23.054+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.122 seconds
+[2024-05-20T06:09:56.180+0000] {processor.py:161} INFO - Started process (PID=18977) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:09:56.181+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T06:09:56.182+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:09:56.182+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:09:56.203+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:09:56.248+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:09:56.247+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T06:09:56.283+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:09:56.283+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T06:09:56.304+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.131 seconds
+[2024-05-20T06:10:27.354+0000] {processor.py:161} INFO - Started process (PID=19036) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:10:27.355+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T06:10:27.356+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:10:27.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:10:27.370+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:10:27.404+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:10:27.404+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T06:10:27.429+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:10:27.429+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T06:10:27.448+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.101 seconds
+[2024-05-20T06:10:58.314+0000] {processor.py:161} INFO - Started process (PID=19095) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:10:58.317+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T06:10:58.319+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:10:58.319+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:10:58.365+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:10:58.540+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:10:58.540+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T06:10:58.651+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:10:58.651+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T06:10:58.713+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.425 seconds
+[2024-05-20T06:11:28.958+0000] {processor.py:161} INFO - Started process (PID=19154) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:11:28.959+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T06:11:28.960+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:11:28.960+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:11:28.973+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:11:29.006+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:11:29.006+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T06:11:29.030+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:11:29.030+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T06:11:29.051+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.100 seconds
+[2024-05-20T06:27:14.638+0000] {processor.py:161} INFO - Started process (PID=19213) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:27:14.640+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T06:27:14.641+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:27:14.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:27:14.655+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T06:27:14.710+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:27:14.709+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T06:27:14.761+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:27:14.761+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T06:27:14.790+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.159 seconds
+[2024-05-20T07:21:41.863+0000] {processor.py:161} INFO - Started process (PID=19271) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T07:21:41.864+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T07:21:41.865+0000] {logging_mixin.py:188} INFO - [2024-05-20T07:21:41.865+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T07:21:41.880+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T07:21:41.910+0000] {logging_mixin.py:188} INFO - [2024-05-20T07:21:41.910+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T07:21:41.932+0000] {logging_mixin.py:188} INFO - [2024-05-20T07:21:41.932+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T07:21:41.956+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.104 seconds
+[2024-05-20T08:20:04.011+0000] {processor.py:161} INFO - Started process (PID=19330) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T08:20:04.013+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T08:20:04.014+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:20:04.014+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T08:20:04.028+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T08:20:04.063+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:20:04.062+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:20:04.090+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:20:04.090+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T08:20:04.111+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.107 seconds
+[2024-05-20T08:37:44.494+0000] {processor.py:161} INFO - Started process (PID=19389) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T08:37:44.495+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T08:37:44.496+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:37:44.496+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T08:37:44.511+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T08:37:44.544+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:37:44.544+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T08:37:44.580+0000] {logging_mixin.py:188} INFO - [2024-05-20T08:37:44.580+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T08:37:44.600+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.113 seconds
+[2024-05-20T09:30:32.165+0000] {processor.py:161} INFO - Started process (PID=19454) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T09:30:32.168+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T09:30:32.171+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:30:32.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T09:30:32.212+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T09:30:32.334+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:30:32.334+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:30:32.442+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:30:32.440+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T09:30:32.659+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.500 seconds
+[2024-05-20T09:31:11.728+0000] {processor.py:161} INFO - Started process (PID=19513) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T09:31:11.735+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T09:31:11.738+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:31:11.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T09:31:11.798+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T09:31:11.925+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:31:11.925+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T09:31:12.062+0000] {logging_mixin.py:188} INFO - [2024-05-20T09:31:12.062+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T09:31:12.177+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.471 seconds
+[2024-05-20T10:31:53.241+0000] {processor.py:161} INFO - Started process (PID=19566) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T10:31:53.242+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T10:31:53.243+0000] {logging_mixin.py:188} INFO - [2024-05-20T10:31:53.243+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T10:31:53.257+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T10:31:53.289+0000] {logging_mixin.py:188} INFO - [2024-05-20T10:31:53.289+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T10:31:53.319+0000] {logging_mixin.py:188} INFO - [2024-05-20T10:31:53.319+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T10:31:53.337+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.102 seconds
+[2024-05-20T11:32:48.715+0000] {processor.py:161} INFO - Started process (PID=19625) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T11:32:48.716+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T11:32:48.719+0000] {logging_mixin.py:188} INFO - [2024-05-20T11:32:48.718+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T11:32:48.741+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T11:32:48.780+0000] {logging_mixin.py:188} INFO - [2024-05-20T11:32:48.780+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T11:32:48.808+0000] {logging_mixin.py:188} INFO - [2024-05-20T11:32:48.808+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T11:32:48.826+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.125 seconds
+[2024-05-20T12:33:52.242+0000] {processor.py:161} INFO - Started process (PID=19684) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T12:33:52.243+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T12:33:52.244+0000] {logging_mixin.py:188} INFO - [2024-05-20T12:33:52.244+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T12:33:52.257+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T12:33:52.300+0000] {logging_mixin.py:188} INFO - [2024-05-20T12:33:52.299+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T12:33:52.327+0000] {logging_mixin.py:188} INFO - [2024-05-20T12:33:52.327+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T12:33:52.347+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.113 seconds
+[2024-05-20T12:34:31.449+0000] {processor.py:161} INFO - Started process (PID=19749) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T12:34:31.450+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T12:34:31.454+0000] {logging_mixin.py:188} INFO - [2024-05-20T12:34:31.453+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T12:34:31.471+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T12:34:31.513+0000] {logging_mixin.py:188} INFO - [2024-05-20T12:34:31.513+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T12:34:31.548+0000] {logging_mixin.py:188} INFO - [2024-05-20T12:34:31.548+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T12:34:31.569+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.130 seconds
+[2024-05-20T13:12:07.617+0000] {processor.py:161} INFO - Started process (PID=19802) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T13:12:07.620+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T13:12:07.622+0000] {logging_mixin.py:188} INFO - [2024-05-20T13:12:07.621+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T13:12:07.635+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T13:12:07.668+0000] {logging_mixin.py:188} INFO - [2024-05-20T13:12:07.667+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T13:12:07.696+0000] {logging_mixin.py:188} INFO - [2024-05-20T13:12:07.696+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T13:12:07.720+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.114 seconds
+[2024-05-20T13:35:04.550+0000] {processor.py:161} INFO - Started process (PID=19861) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T13:35:04.552+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T13:35:04.553+0000] {logging_mixin.py:188} INFO - [2024-05-20T13:35:04.553+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T13:35:04.571+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T13:35:04.603+0000] {logging_mixin.py:188} INFO - [2024-05-20T13:35:04.603+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T13:35:04.633+0000] {logging_mixin.py:188} INFO - [2024-05-20T13:35:04.632+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T13:35:04.652+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.110 seconds
+[2024-05-20T14:36:06.299+0000] {processor.py:161} INFO - Started process (PID=19920) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T14:36:06.300+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T14:36:06.302+0000] {logging_mixin.py:188} INFO - [2024-05-20T14:36:06.301+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T14:36:06.316+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T14:36:06.350+0000] {logging_mixin.py:188} INFO - [2024-05-20T14:36:06.350+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T14:36:06.384+0000] {logging_mixin.py:188} INFO - [2024-05-20T14:36:06.384+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T14:36:06.409+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.118 seconds
+[2024-05-20T14:36:47.896+0000] {processor.py:161} INFO - Started process (PID=19985) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T14:36:47.899+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T14:36:47.901+0000] {logging_mixin.py:188} INFO - [2024-05-20T14:36:47.901+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T14:36:47.929+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T14:36:47.983+0000] {logging_mixin.py:188} INFO - [2024-05-20T14:36:47.982+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T14:36:48.031+0000] {logging_mixin.py:188} INFO - [2024-05-20T14:36:48.031+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T14:36:48.070+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.190 seconds
+[2024-05-20T16:38:10.193+0000] {processor.py:161} INFO - Started process (PID=20038) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T16:38:10.195+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T16:38:10.196+0000] {logging_mixin.py:188} INFO - [2024-05-20T16:38:10.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T16:38:10.212+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T16:38:10.245+0000] {logging_mixin.py:188} INFO - [2024-05-20T16:38:10.245+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T16:38:10.276+0000] {logging_mixin.py:188} INFO - [2024-05-20T16:38:10.276+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T16:38:10.296+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.110 seconds
+[2024-05-20T19:05:06.215+0000] {processor.py:161} INFO - Started process (PID=20096) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:05:06.217+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:05:06.218+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:05:06.217+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:05:06.231+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:05:06.265+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:05:06.265+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:05:06.291+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:05:06.290+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:05:06.312+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.103 seconds
+[2024-05-20T19:06:03.714+0000] {processor.py:161} INFO - Started process (PID=20161) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:06:03.716+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:06:03.718+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:06:03.717+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:06:03.735+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:06:03.794+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:06:03.793+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:06:03.855+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:06:03.855+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:06:03.898+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.197 seconds
+[2024-05-20T19:27:30.873+0000] {processor.py:161} INFO - Started process (PID=20214) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:27:30.879+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:27:30.882+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:27:30.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:27:30.925+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:27:30.993+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:27:30.992+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:27:31.051+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:27:31.050+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:27:31.082+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.220 seconds
+[2024-05-20T19:28:01.232+0000] {processor.py:161} INFO - Started process (PID=20274) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:28:01.235+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:28:01.236+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:28:01.236+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:28:01.255+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:28:01.302+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:28:01.301+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:28:01.334+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:28:01.334+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:28:01.366+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.141 seconds
+[2024-05-20T19:28:32.855+0000] {processor.py:161} INFO - Started process (PID=20333) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:28:32.856+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:28:32.857+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:28:32.856+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:28:32.871+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:28:32.909+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:28:32.909+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:28:32.937+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:28:32.936+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:28:32.959+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.112 seconds
+[2024-05-20T19:29:04.439+0000] {processor.py:161} INFO - Started process (PID=20392) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:29:04.441+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:29:04.443+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:29:04.443+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:29:04.473+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:29:04.514+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:29:04.513+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:29:04.543+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:29:04.543+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:29:04.578+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.155 seconds
+[2024-05-20T19:35:50.787+0000] {processor.py:161} INFO - Started process (PID=20455) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:35:50.795+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:35:50.796+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:35:50.796+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:35:50.904+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:35:51.120+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:35:51.120+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:35:51.296+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:35:51.292+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:35:51.435+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.703 seconds
+[2024-05-20T19:36:21.501+0000] {processor.py:161} INFO - Started process (PID=20514) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:36:21.502+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:36:21.503+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:36:21.503+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:36:21.518+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:36:21.550+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:36:21.549+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:36:21.572+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:36:21.571+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:36:21.587+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.094 seconds
+[2024-05-20T19:36:51.948+0000] {processor.py:161} INFO - Started process (PID=20573) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:36:51.951+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:36:51.953+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:36:51.953+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:36:51.970+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:36:52.092+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:36:52.091+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:36:52.274+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:36:52.273+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:36:52.647+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.708 seconds
+[2024-05-20T19:37:23.108+0000] {processor.py:161} INFO - Started process (PID=20632) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:37:23.110+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:37:23.112+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:37:23.111+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:37:23.134+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:37:23.177+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:37:23.176+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:37:23.210+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:37:23.210+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:37:23.237+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.138 seconds
+[2024-05-20T19:48:57.622+0000] {processor.py:161} INFO - Started process (PID=20704) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:48:57.625+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:48:57.627+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:48:57.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:48:57.649+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:48:57.704+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:48:57.704+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:48:57.744+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:48:57.743+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:48:57.795+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.182 seconds
+[2024-05-20T19:49:28.202+0000] {processor.py:161} INFO - Started process (PID=20763) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:49:28.204+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:49:28.205+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:49:28.205+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:49:28.230+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:49:28.315+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:49:28.314+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:49:28.360+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:49:28.359+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:49:28.397+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.205 seconds
+[2024-05-20T19:49:59.309+0000] {processor.py:161} INFO - Started process (PID=20822) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:49:59.310+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:49:59.312+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:49:59.311+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:49:59.327+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:49:59.360+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:49:59.360+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:49:59.388+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:49:59.387+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:49:59.409+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.108 seconds
+[2024-05-20T19:50:29.723+0000] {processor.py:161} INFO - Started process (PID=20881) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:50:29.724+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:50:29.725+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:50:29.725+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:50:29.740+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:50:29.773+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:50:29.773+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:50:29.802+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:50:29.802+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:50:29.820+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.105 seconds
+[2024-05-20T19:51:00.120+0000] {processor.py:161} INFO - Started process (PID=20940) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:51:00.122+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:51:00.123+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:51:00.123+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:51:00.140+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:51:00.175+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:51:00.174+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:51:00.202+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:51:00.202+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:51:00.223+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.111 seconds
+[2024-05-20T19:51:30.428+0000] {processor.py:161} INFO - Started process (PID=20999) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:51:30.429+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:51:30.430+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:51:30.430+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:51:30.448+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:51:30.496+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:51:30.496+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:51:30.528+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:51:30.528+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:51:30.547+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.128 seconds
+[2024-05-20T19:52:01.130+0000] {processor.py:161} INFO - Started process (PID=21058) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:52:01.131+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:52:01.132+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:52:01.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:52:01.146+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:52:01.181+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:52:01.181+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:52:01.210+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:52:01.210+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:52:01.228+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.107 seconds
+[2024-05-20T19:52:31.985+0000] {processor.py:161} INFO - Started process (PID=21117) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:52:31.988+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:52:31.989+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:52:31.989+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:52:32.006+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:52:32.059+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:52:32.058+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:52:32.111+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:52:32.111+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:52:32.140+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.162 seconds
+[2024-05-20T19:53:02.668+0000] {processor.py:161} INFO - Started process (PID=21175) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:53:02.674+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:53:02.675+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:53:02.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:53:02.705+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:53:02.761+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:53:02.761+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:53:02.810+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:53:02.810+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:53:02.858+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.208 seconds
+[2024-05-20T19:53:32.938+0000] {processor.py:161} INFO - Started process (PID=21233) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:53:32.939+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:53:32.941+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:53:32.940+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:53:32.956+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:53:32.998+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:53:32.998+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:53:33.026+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:53:33.026+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:53:33.045+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.115 seconds
+[2024-05-20T19:54:03.243+0000] {processor.py:161} INFO - Started process (PID=21292) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:54:03.244+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:54:03.247+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:54:03.246+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:54:03.270+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:54:03.343+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:54:03.343+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:54:03.402+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:54:03.402+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:54:03.444+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.215 seconds
+[2024-05-20T19:54:34.286+0000] {processor.py:161} INFO - Started process (PID=21351) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:54:34.288+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:54:34.289+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:54:34.288+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:54:34.305+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:54:34.340+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:54:34.340+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:54:34.368+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:54:34.368+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:54:34.389+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.110 seconds
+[2024-05-20T19:55:05.001+0000] {processor.py:161} INFO - Started process (PID=21410) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:55:05.003+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:55:05.005+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:55:05.005+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:55:05.024+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:55:05.064+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:55:05.064+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:55:05.097+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:55:05.096+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:55:05.118+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.125 seconds
+[2024-05-20T19:55:35.171+0000] {processor.py:161} INFO - Started process (PID=21469) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:55:35.172+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:55:35.173+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:55:35.173+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:55:35.193+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:55:35.234+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:55:35.234+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:55:35.262+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:55:35.262+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:55:35.285+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.121 seconds
+[2024-05-20T19:56:05.431+0000] {processor.py:161} INFO - Started process (PID=21528) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:56:05.432+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:56:05.433+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:56:05.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:56:05.449+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:56:05.486+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:56:05.486+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:56:05.512+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:56:05.512+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:56:05.532+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.109 seconds
+[2024-05-20T19:56:35.685+0000] {processor.py:161} INFO - Started process (PID=21587) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:56:35.688+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:56:35.689+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:56:35.689+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:56:35.703+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:56:35.737+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:56:35.737+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:56:35.765+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:56:35.764+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:56:35.784+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.106 seconds
+[2024-05-20T19:57:05.948+0000] {processor.py:161} INFO - Started process (PID=21646) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:57:05.950+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:57:05.952+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:57:05.951+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:57:05.968+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:57:06.004+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:57:06.004+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:57:06.033+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:57:06.033+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:57:06.052+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.112 seconds
+[2024-05-20T19:57:36.518+0000] {processor.py:161} INFO - Started process (PID=21704) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:57:36.519+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:57:36.524+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:57:36.524+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:57:36.540+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:57:36.575+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:57:36.575+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:57:36.613+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:57:36.613+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:57:36.634+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.124 seconds
+[2024-05-20T19:58:07.242+0000] {processor.py:161} INFO - Started process (PID=21763) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:58:07.244+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:58:07.245+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:58:07.245+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:58:07.262+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:58:07.296+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:58:07.296+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:58:07.325+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:58:07.324+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:58:07.346+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.112 seconds
+[2024-05-20T19:58:37.897+0000] {processor.py:161} INFO - Started process (PID=21821) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:58:37.900+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:58:37.903+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:58:37.902+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:58:37.925+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:58:37.994+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:58:37.993+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:58:38.044+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:58:38.043+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:58:38.078+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.191 seconds
+[2024-05-20T19:59:08.528+0000] {processor.py:161} INFO - Started process (PID=21879) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:59:08.530+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:59:08.532+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:59:08.532+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:59:08.548+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:59:08.584+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:59:08.584+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:59:08.611+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:59:08.611+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:59:08.631+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.111 seconds
+[2024-05-20T19:59:38.934+0000] {processor.py:161} INFO - Started process (PID=21938) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:59:38.937+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T19:59:38.942+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:59:38.942+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:59:39.026+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T19:59:39.103+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:59:39.103+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T19:59:39.158+0000] {logging_mixin.py:188} INFO - [2024-05-20T19:59:39.158+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T19:59:39.208+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.285 seconds
+[2024-05-20T20:00:09.872+0000] {processor.py:161} INFO - Started process (PID=21997) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:00:09.873+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:00:09.875+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:00:09.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:00:09.891+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:00:09.925+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:00:09.925+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:00:09.951+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:00:09.951+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:00:09.969+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.105 seconds
+[2024-05-20T20:00:40.787+0000] {processor.py:161} INFO - Started process (PID=22056) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:00:40.788+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:00:40.790+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:00:40.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:00:40.805+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:00:40.841+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:00:40.841+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:00:40.869+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:00:40.869+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:00:40.888+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.109 seconds
+[2024-05-20T20:01:11.074+0000] {processor.py:161} INFO - Started process (PID=22115) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:01:11.080+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:01:11.081+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:01:11.081+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:01:11.112+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:01:11.179+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:01:11.178+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:01:11.236+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:01:11.235+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:01:11.278+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.228 seconds
+[2024-05-20T20:01:41.857+0000] {processor.py:161} INFO - Started process (PID=22174) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:01:41.859+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:01:41.860+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:01:41.859+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:01:41.874+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:01:41.910+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:01:41.909+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:01:41.940+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:01:41.940+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:01:41.960+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.109 seconds
+[2024-05-20T20:02:12.085+0000] {processor.py:161} INFO - Started process (PID=22233) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:02:12.086+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:02:12.088+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:02:12.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:02:12.102+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:02:12.136+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:02:12.136+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:02:12.162+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:02:12.161+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:02:12.181+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.103 seconds
+[2024-05-20T20:02:42.690+0000] {processor.py:161} INFO - Started process (PID=22292) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:02:42.692+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:02:42.693+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:02:42.692+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:02:42.708+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:02:42.744+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:02:42.743+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:02:42.778+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:02:42.778+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:02:42.800+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.122 seconds
+[2024-05-20T20:03:13.960+0000] {processor.py:161} INFO - Started process (PID=22351) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:03:13.963+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:03:13.966+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:03:13.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:03:13.996+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:03:14.060+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:03:14.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:03:14.121+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:03:14.121+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:03:14.154+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.205 seconds
+[2024-05-20T20:03:44.576+0000] {processor.py:161} INFO - Started process (PID=22410) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:03:44.578+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:03:44.580+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:03:44.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:03:44.605+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:03:44.647+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:03:44.646+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:03:44.701+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:03:44.701+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:03:44.724+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.158 seconds
+[2024-05-20T20:04:15.199+0000] {processor.py:161} INFO - Started process (PID=22469) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:04:15.200+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:04:15.202+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:04:15.201+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:04:15.218+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:04:15.258+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:04:15.257+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:04:15.287+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:04:15.287+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:04:15.308+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.116 seconds
+[2024-05-20T20:04:45.699+0000] {processor.py:161} INFO - Started process (PID=22528) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:04:45.700+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:04:45.702+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:04:45.701+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:04:45.718+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:04:45.761+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:04:45.761+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:04:45.793+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:04:45.792+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:04:45.813+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.123 seconds
+[2024-05-20T20:05:16.111+0000] {processor.py:161} INFO - Started process (PID=22587) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:05:16.112+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:05:16.114+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:05:16.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:05:16.133+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:05:16.175+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:05:16.175+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:05:16.208+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:05:16.208+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:05:16.231+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.130 seconds
+[2024-05-20T20:05:47.128+0000] {processor.py:161} INFO - Started process (PID=22646) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:05:47.129+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:05:47.131+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:05:47.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:05:47.154+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:05:47.195+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:05:47.194+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:05:47.225+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:05:47.225+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:05:47.247+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.129 seconds
+[2024-05-20T20:06:17.897+0000] {processor.py:161} INFO - Started process (PID=22705) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:06:17.902+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:06:17.903+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:06:17.903+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:06:17.919+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:06:17.962+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:06:17.962+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:06:17.995+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:06:17.995+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:06:18.022+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.133 seconds
+[2024-05-20T20:06:48.754+0000] {processor.py:161} INFO - Started process (PID=22764) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:06:48.756+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:06:48.758+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:06:48.757+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:06:48.779+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:06:48.814+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:06:48.814+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:06:48.843+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:06:48.842+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:06:48.863+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.117 seconds
+[2024-05-20T20:07:19.169+0000] {processor.py:161} INFO - Started process (PID=22829) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:07:19.170+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:07:19.172+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:07:19.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:07:19.187+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:07:19.223+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:07:19.223+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:07:19.252+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:07:19.251+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:07:19.271+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.116 seconds
+[2024-05-20T20:07:50.515+0000] {processor.py:161} INFO - Started process (PID=22888) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:07:50.518+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:07:50.520+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:07:50.520+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:07:50.548+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:07:50.615+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:07:50.614+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:07:50.675+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:07:50.674+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:07:50.718+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.215 seconds
+[2024-05-20T20:08:21.837+0000] {processor.py:161} INFO - Started process (PID=22947) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:08:21.841+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:08:21.842+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:08:21.842+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:08:21.870+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:08:21.939+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:08:21.939+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:08:21.988+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:08:21.988+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:08:22.047+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.227 seconds
+[2024-05-20T20:08:52.840+0000] {processor.py:161} INFO - Started process (PID=23006) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:08:52.842+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:08:52.843+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:08:52.843+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:08:52.857+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:08:52.889+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:08:52.888+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:08:52.917+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:08:52.916+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:08:52.932+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.099 seconds
+[2024-05-20T20:09:23.534+0000] {processor.py:161} INFO - Started process (PID=23065) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:09:23.535+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:09:23.537+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:09:23.536+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:09:23.551+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:09:23.585+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:09:23.585+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:09:23.613+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:09:23.612+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:09:23.632+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.104 seconds
+[2024-05-20T20:09:53.891+0000] {processor.py:161} INFO - Started process (PID=23124) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:09:53.893+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:09:53.894+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:09:53.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:09:53.908+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:09:53.942+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:09:53.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:09:53.969+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:09:53.969+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:09:53.987+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.104 seconds
+[2024-05-20T20:10:24.666+0000] {processor.py:161} INFO - Started process (PID=23183) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:10:24.668+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:10:24.669+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:10:24.669+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:10:24.683+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:10:24.736+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:10:24.735+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:10:24.763+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:10:24.763+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:10:24.782+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.123 seconds
+[2024-05-20T20:10:55.755+0000] {processor.py:161} INFO - Started process (PID=23241) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:10:55.756+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:10:55.758+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:10:55.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:10:55.783+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:10:55.835+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:10:55.834+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:10:55.903+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:10:55.902+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:10:55.932+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.191 seconds
+[2024-05-20T20:11:26.345+0000] {processor.py:161} INFO - Started process (PID=23300) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:11:26.347+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:11:26.348+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:11:26.348+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:11:26.365+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:11:26.398+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:11:26.398+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:11:26.429+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:11:26.429+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:11:26.450+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.112 seconds
+[2024-05-20T20:11:56.971+0000] {processor.py:161} INFO - Started process (PID=23359) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:11:56.972+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:11:56.973+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:11:56.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:11:56.988+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:11:57.025+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:11:57.025+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:11:57.053+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:11:57.053+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:11:57.072+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.109 seconds
+[2024-05-20T20:12:27.633+0000] {processor.py:161} INFO - Started process (PID=23418) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:12:27.634+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:12:27.635+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:12:27.635+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:12:27.649+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:12:27.681+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:12:27.681+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:12:27.713+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:12:27.713+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:12:27.735+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.110 seconds
+[2024-05-20T20:12:57.872+0000] {processor.py:161} INFO - Started process (PID=23477) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:12:57.873+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:12:57.874+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:12:57.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:12:57.891+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:12:57.927+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:12:57.927+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:12:57.956+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:12:57.955+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:12:57.976+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.113 seconds
+[2024-05-20T20:13:28.536+0000] {processor.py:161} INFO - Started process (PID=23536) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:13:28.540+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:13:28.543+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:13:28.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:13:28.595+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:13:28.657+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:13:28.657+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:13:28.691+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:13:28.691+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:13:28.713+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.203 seconds
+[2024-05-20T20:13:58.878+0000] {processor.py:161} INFO - Started process (PID=23595) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:13:58.880+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:13:58.881+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:13:58.880+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:13:58.897+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:13:58.936+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:13:58.935+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:13:58.966+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:13:58.966+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:13:58.986+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.115 seconds
+[2024-05-20T20:14:29.050+0000] {processor.py:161} INFO - Started process (PID=23653) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:14:29.053+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:14:29.054+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:14:29.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:14:29.070+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:14:29.103+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:14:29.103+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:14:29.136+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:14:29.135+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:14:29.173+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.132 seconds
+[2024-05-20T20:14:59.690+0000] {processor.py:161} INFO - Started process (PID=23713) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:14:59.694+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:14:59.695+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:14:59.694+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:14:59.727+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:14:59.790+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:14:59.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:14:59.857+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:14:59.856+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:14:59.907+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.233 seconds
+[2024-05-20T20:15:30.857+0000] {processor.py:161} INFO - Started process (PID=23772) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:15:30.861+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:15:30.865+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:15:30.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:15:30.911+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:15:30.981+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:15:30.980+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:15:31.019+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:15:31.019+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:15:31.058+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.222 seconds
+[2024-05-20T20:16:54.556+0000] {processor.py:161} INFO - Started process (PID=23841) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:16:54.560+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:16:54.565+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:16:54.563+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:16:54.627+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:16:54.783+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:16:54.782+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:16:54.904+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:16:54.903+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:16:54.996+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.473 seconds
+[2024-05-20T20:17:25.305+0000] {processor.py:161} INFO - Started process (PID=23900) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:17:25.307+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:17:25.309+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:17:25.309+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:17:25.331+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:17:25.380+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:17:25.379+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:17:25.415+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:17:25.414+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:17:25.437+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.140 seconds
+[2024-05-20T20:46:14.703+0000] {processor.py:161} INFO - Started process (PID=23958) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:46:14.713+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:46:14.724+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:46:14.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:46:15.014+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:46:15.755+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:46:15.753+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:46:16.076+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:46:16.075+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:46:16.282+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.675 seconds
+[2024-05-20T20:46:50.921+0000] {processor.py:161} INFO - Started process (PID=24016) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:46:50.935+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:46:50.952+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:46:50.948+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:46:51.156+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:46:51.401+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:46:51.400+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:46:51.674+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:46:51.669+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:46:51.853+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.059 seconds
+[2024-05-20T20:47:22.402+0000] {processor.py:161} INFO - Started process (PID=24075) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:47:22.417+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:47:22.428+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:47:22.426+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:47:22.777+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:47:23.264+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:47:23.263+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:47:23.759+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:47:23.758+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:47:24.054+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.744 seconds
+[2024-05-20T20:47:54.233+0000] {processor.py:161} INFO - Started process (PID=24134) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:47:54.239+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T20:47:54.244+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:47:54.242+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:47:54.307+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T20:47:54.459+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:47:54.458+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T20:47:54.587+0000] {logging_mixin.py:188} INFO - [2024-05-20T20:47:54.586+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T20:47:54.687+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.486 seconds
+[2024-05-20T21:05:02.537+0000] {processor.py:161} INFO - Started process (PID=24166) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:05:02.545+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:05:02.554+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:05:02.550+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:05:02.832+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:05:03.252+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:05:03.250+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:05:03.440+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:05:03.438+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:05:03.682+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.211 seconds
+[2024-05-20T21:05:36.547+0000] {processor.py:161} INFO - Started process (PID=24225) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:05:36.562+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:05:36.577+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:05:36.571+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:05:36.734+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:05:37.163+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:05:37.160+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:05:37.468+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:05:37.463+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:05:37.655+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.231 seconds
+[2024-05-20T21:06:08.861+0000] {processor.py:161} INFO - Started process (PID=24284) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:06:08.871+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:06:08.880+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:06:08.879+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:06:09.041+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:06:09.514+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:06:09.503+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:06:09.907+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:06:09.906+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:06:10.088+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.311 seconds
+[2024-05-20T21:06:40.324+0000] {processor.py:161} INFO - Started process (PID=24343) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:06:40.329+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:06:40.334+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:06:40.332+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:06:40.395+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:06:40.524+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:06:40.523+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:06:40.684+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:06:40.681+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:06:40.829+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.533 seconds
+[2024-05-20T21:07:11.147+0000] {processor.py:161} INFO - Started process (PID=24402) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:07:11.153+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:07:11.163+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:07:11.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:07:11.263+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:07:11.486+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:07:11.485+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:07:11.607+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:07:11.606+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:07:11.691+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.601 seconds
+[2024-05-20T21:07:42.477+0000] {processor.py:161} INFO - Started process (PID=24461) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:07:42.479+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:07:42.480+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:07:42.480+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:07:42.496+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:07:42.529+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:07:42.529+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:07:42.556+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:07:42.556+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:07:42.576+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.106 seconds
+[2024-05-20T21:11:45.403+0000] {processor.py:161} INFO - Started process (PID=24498) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:11:45.410+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:11:45.420+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:11:45.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:11:45.611+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:11:45.946+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:11:45.945+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:11:46.276+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:11:46.273+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:11:46.481+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.153 seconds
+[2024-05-20T21:12:16.630+0000] {processor.py:161} INFO - Started process (PID=24557) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:12:16.632+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:12:16.633+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:12:16.633+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:12:16.647+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:12:16.684+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:12:16.684+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:12:16.719+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:12:16.718+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:12:16.739+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.116 seconds
+[2024-05-20T21:13:24.701+0000] {processor.py:161} INFO - Started process (PID=24602) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:13:24.718+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:13:24.736+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:13:24.726+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:13:25.063+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:13:25.558+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:13:25.555+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:13:25.854+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:13:25.847+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:13:26.098+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.523 seconds
+[2024-05-20T21:24:53.196+0000] {processor.py:161} INFO - Started process (PID=24653) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:24:53.198+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:24:53.199+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:24:53.198+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:24:53.213+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:24:53.247+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:24:53.247+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:24:53.278+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:24:53.278+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:24:53.299+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.110 seconds
+[2024-05-20T21:25:34.669+0000] {processor.py:161} INFO - Started process (PID=24718) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:25:34.682+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:25:34.696+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:25:34.692+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:25:34.952+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:25:35.955+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:25:35.949+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:25:36.587+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:25:36.577+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:25:37.015+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 2.450 seconds
+[2024-05-20T21:26:07.267+0000] {processor.py:161} INFO - Started process (PID=24777) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:26:07.273+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:26:07.280+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:26:07.277+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:26:07.357+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:26:07.628+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:26:07.627+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:26:07.760+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:26:07.758+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:26:07.882+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.651 seconds
+[2024-05-20T21:26:39.555+0000] {processor.py:161} INFO - Started process (PID=24836) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:26:39.584+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:26:39.595+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:26:39.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:26:39.754+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:26:39.897+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:26:39.896+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:26:39.997+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:26:39.996+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:26:40.073+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.551 seconds
+[2024-05-20T21:27:12.268+0000] {processor.py:161} INFO - Started process (PID=24895) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:27:12.273+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:27:12.278+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:27:12.276+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:27:12.347+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:27:12.503+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:27:12.502+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:27:12.650+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:27:12.649+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:27:12.761+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.527 seconds
+[2024-05-20T21:34:41.065+0000] {processor.py:161} INFO - Started process (PID=24926) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:34:41.082+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:34:41.100+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:34:41.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:34:41.443+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:34:42.017+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:34:42.011+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:34:42.373+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:34:42.365+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:34:42.674+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.743 seconds
+[2024-05-20T21:51:02.543+0000] {processor.py:161} INFO - Started process (PID=24979) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:51:02.545+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:51:02.549+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:51:02.547+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:51:02.566+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:51:02.597+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:51:02.597+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:51:02.625+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:51:02.624+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:51:02.643+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.107 seconds
+[2024-05-20T21:51:41.191+0000] {processor.py:161} INFO - Started process (PID=25044) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:51:41.221+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:51:41.255+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:51:41.247+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:51:41.373+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:51:41.635+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:51:41.634+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:51:41.782+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:51:41.781+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:51:41.878+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.826 seconds
+[2024-05-20T21:52:21.883+0000] {processor.py:161} INFO - Started process (PID=25103) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:52:21.891+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:52:21.901+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:52:21.900+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:52:22.034+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:52:22.439+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:52:22.438+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:52:22.619+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:52:22.618+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:52:22.725+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.900 seconds
+[2024-05-20T21:52:52.912+0000] {processor.py:161} INFO - Started process (PID=25162) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:52:52.920+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T21:52:52.926+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:52:52.923+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:52:53.029+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T21:52:53.252+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:52:53.251+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T21:52:53.387+0000] {logging_mixin.py:188} INFO - [2024-05-20T21:52:53.384+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T21:52:53.492+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.631 seconds
+[2024-05-20T22:06:02.760+0000] {processor.py:161} INFO - Started process (PID=25221) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:06:02.795+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:06:02.831+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:06:02.818+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:06:03.138+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:06:03.789+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:06:03.788+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:06:04.302+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:06:04.301+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:06:04.640+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 2.168 seconds
+[2024-05-20T22:06:35.003+0000] {processor.py:161} INFO - Started process (PID=25280) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:06:35.015+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:06:35.025+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:06:35.023+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:06:35.177+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:06:35.981+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:06:35.979+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:06:36.573+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:06:36.571+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:06:36.871+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.962 seconds
+[2024-05-20T22:07:07.442+0000] {processor.py:161} INFO - Started process (PID=25339) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:07:07.448+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:07:07.453+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:07:07.451+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:07:07.527+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:07:07.713+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:07:07.709+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:07:07.982+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:07:07.981+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:07:08.104+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.704 seconds
+[2024-05-20T22:07:38.961+0000] {processor.py:161} INFO - Started process (PID=25398) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:07:38.965+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:07:38.970+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:07:38.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:07:39.020+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:07:39.143+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:07:39.142+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:07:39.241+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:07:39.240+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:07:39.317+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.380 seconds
+[2024-05-20T22:23:51.255+0000] {processor.py:161} INFO - Started process (PID=25451) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:23:51.261+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:23:51.266+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:23:51.264+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:23:51.339+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:23:51.523+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:23:51.520+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:23:51.676+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:23:51.674+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:23:51.763+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.547 seconds
+[2024-05-20T22:24:29.152+0000] {processor.py:161} INFO - Started process (PID=25516) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:24:29.164+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:24:29.182+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:24:29.172+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:24:29.442+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:24:29.616+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:24:29.615+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:24:29.757+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:24:29.754+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:24:29.859+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.769 seconds
+[2024-05-20T22:25:07.942+0000] {processor.py:161} INFO - Started process (PID=25575) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:25:07.946+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:25:07.955+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:25:07.954+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:25:08.018+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:25:08.168+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:25:08.167+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:25:08.377+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:25:08.377+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:25:08.523+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.607 seconds
+[2024-05-20T22:25:39.526+0000] {processor.py:161} INFO - Started process (PID=25634) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:25:39.527+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:25:39.530+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:25:39.528+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:25:39.569+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:25:39.640+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:25:39.640+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:25:39.703+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:25:39.702+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:25:39.742+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.229 seconds
+[2024-05-20T22:41:04.636+0000] {processor.py:161} INFO - Started process (PID=25661) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:41:04.639+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:41:04.640+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:41:04.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:41:04.655+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:41:04.688+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:41:04.687+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:41:04.724+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:41:04.724+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:41:04.743+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.114 seconds
+[2024-05-20T22:41:49.122+0000] {processor.py:161} INFO - Started process (PID=25726) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:41:49.127+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:41:49.132+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:41:49.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:41:49.197+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:41:49.407+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:41:49.405+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:41:49.552+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:41:49.551+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:41:49.646+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.560 seconds
+[2024-05-20T22:42:31.470+0000] {processor.py:161} INFO - Started process (PID=25785) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:42:31.480+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:42:31.488+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:42:31.484+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:42:31.646+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:42:32.005+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:42:32.000+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:42:32.180+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:42:32.179+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:42:32.266+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.904 seconds
+[2024-05-20T22:43:05.971+0000] {processor.py:161} INFO - Started process (PID=25845) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:43:05.976+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T22:43:05.986+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:43:05.982+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:43:06.085+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T22:43:06.231+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:43:06.230+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T22:43:06.833+0000] {logging_mixin.py:188} INFO - [2024-05-20T22:43:06.832+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T22:43:06.902+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.963 seconds
+[2024-05-20T23:00:10.516+0000] {processor.py:161} INFO - Started process (PID=25911) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:00:10.536+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:00:10.555+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:00:10.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:00:10.660+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:00:11.295+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:00:11.293+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:00:11.716+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:00:11.714+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:00:11.914+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.528 seconds
+[2024-05-20T23:00:46.741+0000] {processor.py:161} INFO - Started process (PID=25976) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:00:46.754+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:00:46.770+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:00:46.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:00:47.049+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:00:48.013+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:00:48.012+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:00:48.764+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:00:48.749+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:00:49.137+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 2.560 seconds
+[2024-05-20T23:01:19.528+0000] {processor.py:161} INFO - Started process (PID=26035) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:01:19.534+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:01:19.541+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:01:19.539+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:01:19.658+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:01:19.892+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:01:19.889+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:01:20.017+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:01:20.014+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:01:20.186+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.710 seconds
+[2024-05-20T23:01:50.717+0000] {processor.py:161} INFO - Started process (PID=26094) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:01:50.718+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:01:50.719+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:01:50.719+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:01:50.734+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:01:50.775+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:01:50.774+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:01:50.815+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:01:50.815+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:01:50.834+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.125 seconds
+[2024-05-20T23:19:00.322+0000] {processor.py:161} INFO - Started process (PID=26120) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:19:00.327+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:19:00.333+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:19:00.331+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:19:00.410+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:19:00.570+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:19:00.568+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:19:00.704+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:19:00.703+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:19:00.794+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.507 seconds
+[2024-05-20T23:19:43.514+0000] {processor.py:161} INFO - Started process (PID=26183) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:19:43.521+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:19:43.528+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:19:43.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:19:43.591+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:19:43.793+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:19:43.789+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:19:43.976+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:19:43.975+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:19:44.098+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.645 seconds
+[2024-05-20T23:20:19.211+0000] {processor.py:161} INFO - Started process (PID=26242) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:20:19.219+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:20:19.226+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:20:19.225+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:20:19.347+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:20:19.752+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:20:19.748+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:20:19.999+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:20:19.998+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:20:20.214+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.049 seconds
+[2024-05-20T23:20:52.745+0000] {processor.py:161} INFO - Started process (PID=26301) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:20:52.746+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:20:52.748+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:20:52.747+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:20:52.762+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:20:52.813+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:20:52.813+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:20:52.854+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:20:52.854+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:20:52.871+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.134 seconds
+[2024-05-20T23:24:31.842+0000] {processor.py:161} INFO - Started process (PID=26324) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:24:31.843+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:24:31.845+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:24:31.844+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:24:31.860+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:24:31.909+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:24:31.908+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:24:31.940+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:24:31.939+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:24:31.962+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.127 seconds
+[2024-05-20T23:25:20.083+0000] {processor.py:161} INFO - Started process (PID=26389) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:25:20.092+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:25:20.100+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:25:20.097+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:25:20.226+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:25:20.522+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:25:20.520+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:25:20.648+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:25:20.646+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:25:20.771+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.781 seconds
+[2024-05-20T23:25:56.991+0000] {processor.py:161} INFO - Started process (PID=26448) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:25:57.001+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:25:57.011+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:25:57.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:25:57.159+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:25:57.479+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:25:57.478+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:25:57.768+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:25:57.762+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:25:58.021+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.103 seconds
+[2024-05-20T23:26:29.041+0000] {processor.py:161} INFO - Started process (PID=26507) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:26:29.049+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:26:29.056+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:26:29.052+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:26:29.188+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:26:29.600+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:26:29.595+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:26:29.882+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:26:29.877+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:26:30.057+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.076 seconds
+[2024-05-20T23:43:23.814+0000] {processor.py:161} INFO - Started process (PID=26580) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:43:23.825+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:43:23.836+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:43:23.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:43:23.989+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:43:24.403+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:43:24.399+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:43:24.601+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:43:24.596+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:43:24.939+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.220 seconds
+[2024-05-20T23:43:59.242+0000] {processor.py:161} INFO - Started process (PID=26645) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:43:59.269+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:43:59.314+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:43:59.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:43:59.781+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:44:00.374+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:44:00.368+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:44:00.860+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:44:00.855+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:44:01.191+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 2.215 seconds
+[2024-05-20T23:44:31.928+0000] {processor.py:161} INFO - Started process (PID=26704) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:44:31.936+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:44:31.945+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:44:31.940+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:44:32.076+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:44:32.484+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:44:32.483+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:44:32.810+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:44:32.809+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:44:33.072+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 1.230 seconds
+[2024-05-20T23:45:04.057+0000] {processor.py:161} INFO - Started process (PID=26763) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:45:04.062+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2024-05-20T23:45:04.068+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:45:04.066+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:45:04.144+0000] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py
+[2024-05-20T23:45:04.406+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:45:04.403+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T23:45:04.702+0000] {logging_mixin.py:188} INFO - [2024-05-20T23:45:04.701+0000] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2024-05-19 00:00:00+00:00, run_after=2024-05-20 00:00:00+00:00
+[2024-05-20T23:45:04.891+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_bash_operator.py took 0.870 seconds

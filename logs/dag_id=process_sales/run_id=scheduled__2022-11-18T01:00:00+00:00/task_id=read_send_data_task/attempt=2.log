@@ -1,0 +1,41 @@
+[2024-05-25T20:44:29.870+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-25T20:44:29.892+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_sales.read_send_data_task scheduled__2022-11-18T01:00:00+00:00 [queued]>
+[2024-05-25T20:44:29.900+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_sales.read_send_data_task scheduled__2022-11-18T01:00:00+00:00 [queued]>
+[2024-05-25T20:44:29.900+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 3
+[2024-05-25T20:44:29.913+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): read_send_data_task> on 2022-11-18 01:00:00+00:00
+[2024-05-25T20:44:29.920+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=2461) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-25T20:44:29.922+0000] {standard_task_runner.py:63} INFO - Started process 2463 to run task
+[2024-05-25T20:44:29.922+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'process_sales', 'read_send_data_task', 'scheduled__2022-11-18T01:00:00+00:00', '--job-id', '377', '--raw', '--subdir', 'DAGS_FOLDER/process_sales.py', '--cfg-path', '/tmp/tmp_44_5u7y']
+[2024-05-25T20:44:29.925+0000] {standard_task_runner.py:91} INFO - Job 377: Subtask read_send_data_task
+[2024-05-25T20:44:29.973+0000] {task_command.py:426} INFO - Running <TaskInstance: process_sales.read_send_data_task scheduled__2022-11-18T01:00:00+00:00 [running]> on host 6ecac41592ab
+[2024-05-25T20:44:30.073+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gurlenko.1488@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='process_sales' AIRFLOW_CTX_TASK_ID='read_send_data_task' AIRFLOW_CTX_EXECUTION_DATE='2022-11-18T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-11-18T01:00:00+00:00'
+[2024-05-25T20:44:30.075+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-25T20:44:30.076+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-25T20:44:30.077+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_sender.py", line 36, in read_send_data
+    for json_file in os.listdir(read_dir):
+                     ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/admin/Desktop/Take data from API/pythonProject/file_storage/raw/sales'
+[2024-05-25T20:44:30.087+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=process_sales, task_id=read_send_data_task, run_id=scheduled__2022-11-18T01:00:00+00:00, execution_date=20221118T010000, start_date=20240525T204429, end_date=20240525T204430
+[2024-05-25T20:44:30.098+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 377 for task read_send_data_task ([Errno 2] No such file or directory: '/Users/admin/Desktop/Take data from API/pythonProject/file_storage/raw/sales'; 2463)
+[2024-05-25T20:44:30.106+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-25T20:44:30.124+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-25T20:44:30.125+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

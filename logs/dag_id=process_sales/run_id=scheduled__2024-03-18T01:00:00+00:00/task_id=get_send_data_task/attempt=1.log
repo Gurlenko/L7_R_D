@@ -1,0 +1,109 @@
+[2024-05-27T16:19:01.047+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-27T16:19:01.070+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_sales.get_send_data_task scheduled__2024-03-18T01:00:00+00:00 [queued]>
+[2024-05-27T16:19:01.077+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_sales.get_send_data_task scheduled__2024-03-18T01:00:00+00:00 [queued]>
+[2024-05-27T16:19:01.078+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-05-27T16:19:01.091+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_send_data_task> on 2024-03-18 01:00:00+00:00
+[2024-05-27T16:19:01.098+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1340) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-27T16:19:01.101+0000] {standard_task_runner.py:63} INFO - Started process 1342 to run task
+[2024-05-27T16:19:01.100+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'process_sales', 'get_send_data_task', 'scheduled__2024-03-18T01:00:00+00:00', '--job-id', '2224', '--raw', '--subdir', 'DAGS_FOLDER/process_sales.py', '--cfg-path', '/tmp/tmpzkemgu2w']
+[2024-05-27T16:19:01.103+0000] {standard_task_runner.py:91} INFO - Job 2224: Subtask get_send_data_task
+[2024-05-27T16:19:01.151+0000] {task_command.py:426} INFO - Running <TaskInstance: process_sales.get_send_data_task scheduled__2024-03-18T01:00:00+00:00 [running]> on host 6ecac41592ab
+[2024-05-27T16:19:01.248+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gurlenko.1488@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='process_sales' AIRFLOW_CTX_TASK_ID='get_send_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-03-18T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-18T01:00:00+00:00'
+[2024-05-27T16:19:01.250+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-27T16:19:01.524+0000] {logging_mixin.py:188} INFO - Response status code on page 1:  200
+[2024-05-27T16:19:01.828+0000] {logging_mixin.py:188} INFO - Response status code on page 2:  200
+[2024-05-27T16:19:02.086+0000] {logging_mixin.py:188} INFO - Response status code on page 3:  200
+[2024-05-27T16:19:02.340+0000] {logging_mixin.py:188} INFO - Response status code on page 4:  200
+[2024-05-27T16:19:02.590+0000] {logging_mixin.py:188} INFO - Total pages: 4
+[2024-05-27T16:19:02.597+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-27T16:19:02.599+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 400, in request
+    self.endheaders()
+  File "/usr/local/lib/python3.12/http/client.py", line 1331, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.12/http/client.py", line 1091, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.12/http/client.py", line 1035, in send
+    self.connect()
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 238, in connect
+    self.sock = self._new_conn()
+                ^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fefa59af920>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='host.docker.internal', port=8082): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fefa59af920>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_sender.py", line 26, in get_send_data
+    response = requests.post(url=f'http://host.docker.internal:{JOB_1_port}/', json=total_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='host.docker.internal', port=8082): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fefa59af920>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2024-05-27T16:19:02.628+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=process_sales, task_id=get_send_data_task, run_id=scheduled__2024-03-18T01:00:00+00:00, execution_date=20240318T010000, start_date=20240527T161901, end_date=20240527T161902
+[2024-05-27T16:19:02.661+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 2224 for task get_send_data_task (HTTPConnectionPool(host='host.docker.internal', port=8082): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fefa59af920>: Failed to establish a new connection: [Errno 111] Connection refused')); 1342)
+[2024-05-27T16:19:02.717+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-27T16:19:02.787+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-27T16:19:02.794+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

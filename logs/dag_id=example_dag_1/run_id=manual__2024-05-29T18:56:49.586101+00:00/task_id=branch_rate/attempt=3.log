@@ -1,0 +1,37 @@
+[2024-05-29T18:58:00.497+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-29T18:58:00.538+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_dag_1.branch_rate manual__2024-05-29T18:56:49.586101+00:00 [queued]>
+[2024-05-29T18:58:00.566+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_dag_1.branch_rate manual__2024-05-29T18:56:49.586101+00:00 [queued]>
+[2024-05-29T18:58:00.567+0000] {taskinstance.py:2306} INFO - Starting attempt 3 of 4
+[2024-05-29T18:58:00.591+0000] {taskinstance.py:2330} INFO - Executing <Task(BaseBranchOperator): branch_rate> on 2024-05-29 18:56:49.586101+00:00
+[2024-05-29T18:58:00.604+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=411) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-29T18:58:00.606+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'example_dag_1', 'branch_rate', 'manual__2024-05-29T18:56:49.586101+00:00', '--job-id', '2605', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpfz1ccelu']
+[2024-05-29T18:58:00.610+0000] {standard_task_runner.py:63} INFO - Started process 415 to run task
+[2024-05-29T18:58:00.611+0000] {standard_task_runner.py:91} INFO - Job 2605: Subtask branch_rate
+[2024-05-29T18:58:00.747+0000] {task_command.py:426} INFO - Running <TaskInstance: example_dag_1.branch_rate manual__2024-05-29T18:56:49.586101+00:00 [running]> on host 6ecac41592ab
+[2024-05-29T18:58:00.940+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gurlenko.13032001@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_dag_1' AIRFLOW_CTX_TASK_ID='branch_rate' AIRFLOW_CTX_EXECUTION_DATE='2024-05-29T18:56:49.586101+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-29T18:56:49.586101+00:00'
+[2024-05-29T18:58:00.946+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-29T18:58:00.947+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-29T18:58:00.948+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/branch.py", line 67, in execute
+    return self.do_branch(context, self.choose_branch(context))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/branch.py", line 64, in choose_branch
+    raise NotImplementedError
+NotImplementedError
+[2024-05-29T18:58:00.961+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=example_dag_1, task_id=branch_rate, run_id=manual__2024-05-29T18:56:49.586101+00:00, execution_date=20240529T185649, start_date=20240529T185800, end_date=20240529T185800
+[2024-05-29T18:58:00.978+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 2605 for task branch_rate (; 415)
+[2024-05-29T18:58:01.020+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-29T18:58:01.054+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-29T18:58:01.057+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,85 @@
+[2024-05-27T20:24:22.989+0000] {processor.py:161} INFO - Started process (PID=32319) to work on /opt/airflow/dags/test.py
+[2024-05-27T20:24:22.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-05-27T20:24:23.001+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:24:22.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-05-27T20:24:23.111+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:24:23.096+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    execution_date = Variable.get("datetime")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable datetime does not exist'
+[2024-05-27T20:24:23.116+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2024-05-27T20:24:23.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test.py took 0.819 seconds
+[2024-05-27T20:24:54.194+0000] {processor.py:161} INFO - Started process (PID=32379) to work on /opt/airflow/dags/test.py
+[2024-05-27T20:24:54.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-05-27T20:24:54.197+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:24:54.197+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-05-27T20:24:54.221+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:24:54.217+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    execution_date = Variable.get("datetime")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable datetime does not exist'
+[2024-05-27T20:24:54.222+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2024-05-27T20:24:54.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test.py took 0.049 seconds
+[2024-05-27T20:28:13.577+0000] {processor.py:161} INFO - Started process (PID=30) to work on /opt/airflow/dags/test.py
+[2024-05-27T20:28:13.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-05-27T20:28:13.615+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:28:13.614+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-05-27T20:28:13.759+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:28:13.746+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    execution_date = Variable.get("datetime")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable datetime does not exist'
+[2024-05-27T20:28:13.763+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2024-05-27T20:28:13.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test.py took 0.320 seconds
+[2024-05-27T20:28:43.913+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/test.py
+[2024-05-27T20:28:43.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-05-27T20:28:43.920+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:28:43.918+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-05-27T20:28:43.950+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:28:43.946+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    execution_date = Variable.get("datetime")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable datetime does not exist'
+[2024-05-27T20:28:43.951+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2024-05-27T20:28:43.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test.py took 0.073 seconds
+[2024-05-27T20:29:14.084+0000] {processor.py:161} INFO - Started process (PID=148) to work on /opt/airflow/dags/test.py
+[2024-05-27T20:29:14.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2024-05-27T20:29:14.093+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:29:14.092+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2024-05-27T20:29:14.133+0000] {logging_mixin.py:188} INFO - [2024-05-27T20:29:14.127+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 4, in <module>
+    execution_date = Variable.get("datetime")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable datetime does not exist'
+[2024-05-27T20:29:14.135+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2024-05-27T20:29:14.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test.py took 0.091 seconds

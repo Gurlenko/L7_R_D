@@ -1,0 +1,26 @@
+[2024-05-25T19:31:00.585+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-25T19:31:00.607+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_sales.get_send_data_task scheduled__2022-08-28T01:00:00+00:00 [queued]>
+[2024-05-25T19:31:00.614+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_sales.get_send_data_task scheduled__2022-08-28T01:00:00+00:00 [queued]>
+[2024-05-25T19:31:00.615+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-05-25T19:31:00.627+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_send_data_task> on 2022-08-28 01:00:00+00:00
+[2024-05-25T19:31:00.633+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=554) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-25T19:31:00.639+0000] {standard_task_runner.py:63} INFO - Started process 563 to run task
+[2024-05-25T19:31:00.638+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'process_sales', 'get_send_data_task', 'scheduled__2022-08-28T01:00:00+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/process_sales.py', '--cfg-path', '/tmp/tmpgkfpxq1a']
+[2024-05-25T19:31:00.642+0000] {standard_task_runner.py:91} INFO - Job 42: Subtask get_send_data_task
+[2024-05-25T19:31:00.695+0000] {task_command.py:426} INFO - Running <TaskInstance: process_sales.get_send_data_task scheduled__2022-08-28T01:00:00+00:00 [running]> on host 6ecac41592ab
+[2024-05-25T19:31:00.793+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gurlenko.1488@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='process_sales' AIRFLOW_CTX_TASK_ID='get_send_data_task' AIRFLOW_CTX_EXECUTION_DATE='2022-08-28T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-08-28T01:00:00+00:00'
+[2024-05-25T19:31:00.796+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-25T19:31:01.089+0000] {logging_mixin.py:188} INFO - Response status code on page 1:  200
+[2024-05-25T19:31:01.387+0000] {logging_mixin.py:188} INFO - Response status code on page 2:  200
+[2024-05-25T19:31:01.643+0000] {logging_mixin.py:188} INFO - Response status code on page 3:  200
+[2024-05-25T19:31:01.924+0000] {logging_mixin.py:188} INFO - Response status code on page 4:  200
+[2024-05-25T19:31:02.198+0000] {logging_mixin.py:188} INFO - Total pages: 4
+[2024-05-25T19:31:02.225+0000] {logging_mixin.py:188} INFO - Data successfully posted to Job_1.
+[2024-05-25T19:31:02.230+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-25T19:31:02.234+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-25T19:31:02.250+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=process_sales, task_id=get_send_data_task, run_id=scheduled__2022-08-28T01:00:00+00:00, execution_date=20220828T010000, start_date=20240525T193100, end_date=20240525T193102
+[2024-05-25T19:31:02.310+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-25T19:31:02.365+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-25T19:31:02.371+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

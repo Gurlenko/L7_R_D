@@ -1,0 +1,29 @@
+[2024-05-27T15:44:13.884+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-27T15:44:13.920+0000] {taskinstance.py:2066} INFO - Dependencies not met for <TaskInstance: process_sales.get_send_data_task scheduled__2023-12-17T01:00:00+00:00 [up_for_retry]>, dependency 'Not In Retry Period' FAILED: Task is not ready for retry yet but will be retried automatically. Current date is 2024-05-27T15:44:13.920451+00:00 and task will be retried at 2024-05-27T15:44:15.519362+00:00.
+[2024-05-27T15:44:13.922+0000] {local_task_job_runner.py:163} INFO - Task is not able to be run
+[2024-05-27T15:44:17.090+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-27T15:44:17.113+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_sales.get_send_data_task scheduled__2023-12-17T01:00:00+00:00 [queued]>
+[2024-05-27T15:44:17.132+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_sales.get_send_data_task scheduled__2023-12-17T01:00:00+00:00 [queued]>
+[2024-05-27T15:44:17.133+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 3
+[2024-05-27T15:44:17.147+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_send_data_task> on 2023-12-17 01:00:00+00:00
+[2024-05-27T15:44:17.155+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=51) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-27T15:44:17.156+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'process_sales', 'get_send_data_task', 'scheduled__2023-12-17T01:00:00+00:00', '--job-id', '1933', '--raw', '--subdir', 'DAGS_FOLDER/process_sales.py', '--cfg-path', '/tmp/tmp485awzmc']
+[2024-05-27T15:44:17.159+0000] {standard_task_runner.py:63} INFO - Started process 53 to run task
+[2024-05-27T15:44:17.159+0000] {standard_task_runner.py:91} INFO - Job 1933: Subtask get_send_data_task
+[2024-05-27T15:44:17.207+0000] {task_command.py:426} INFO - Running <TaskInstance: process_sales.get_send_data_task scheduled__2023-12-17T01:00:00+00:00 [running]> on host 6ecac41592ab
+[2024-05-27T15:44:17.319+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gurlenko.1488@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='process_sales' AIRFLOW_CTX_TASK_ID='get_send_data_task' AIRFLOW_CTX_EXECUTION_DATE='2023-12-17T01:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-17T01:00:00+00:00'
+[2024-05-27T15:44:17.323+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-27T15:44:17.615+0000] {logging_mixin.py:188} INFO - Response status code on page 1:  200
+[2024-05-27T15:44:17.891+0000] {logging_mixin.py:188} INFO - Response status code on page 2:  200
+[2024-05-27T15:44:18.140+0000] {logging_mixin.py:188} INFO - Response status code on page 3:  200
+[2024-05-27T15:44:18.393+0000] {logging_mixin.py:188} INFO - Response status code on page 4:  200
+[2024-05-27T15:44:18.642+0000] {logging_mixin.py:188} INFO - Total pages: 4
+[2024-05-27T15:44:18.669+0000] {logging_mixin.py:188} INFO - Data successfully posted to Job_1.
+[2024-05-27T15:44:18.672+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-27T15:44:18.673+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-27T15:44:18.683+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=process_sales, task_id=get_send_data_task, run_id=scheduled__2023-12-17T01:00:00+00:00, execution_date=20231217T010000, start_date=20240527T154417, end_date=20240527T154418
+[2024-05-27T15:44:18.735+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-27T15:44:18.757+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-27T15:44:18.759+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

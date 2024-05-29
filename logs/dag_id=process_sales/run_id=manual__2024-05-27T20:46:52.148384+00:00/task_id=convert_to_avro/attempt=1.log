@@ -1,0 +1,22 @@
+[2024-05-27T20:47:01.869+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-27T20:47:01.902+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_sales.convert_to_avro manual__2024-05-27T20:46:52.148384+00:00 [queued]>
+[2024-05-27T20:47:01.911+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_sales.convert_to_avro manual__2024-05-27T20:46:52.148384+00:00 [queued]>
+[2024-05-27T20:47:01.912+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-05-27T20:47:01.927+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): convert_to_avro> on 2024-05-27 20:46:52.148384+00:00
+[2024-05-27T20:47:01.935+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=336) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-27T20:47:01.937+0000] {standard_task_runner.py:63} INFO - Started process 338 to run task
+[2024-05-27T20:47:01.937+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'process_sales', 'convert_to_avro', 'manual__2024-05-27T20:46:52.148384+00:00', '--job-id', '2479', '--raw', '--subdir', 'DAGS_FOLDER/process_sales.py', '--cfg-path', '/tmp/tmpqx9rlygz']
+[2024-05-27T20:47:01.941+0000] {standard_task_runner.py:91} INFO - Job 2479: Subtask convert_to_avro
+[2024-05-27T20:47:02.004+0000] {task_command.py:426} INFO - Running <TaskInstance: process_sales.convert_to_avro manual__2024-05-27T20:46:52.148384+00:00 [running]> on host 6ecac41592ab
+[2024-05-27T20:47:02.180+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gurlenko.1488@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='process_sales' AIRFLOW_CTX_TASK_ID='convert_to_avro' AIRFLOW_CTX_EXECUTION_DATE='2024-05-27T20:46:52.148384+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-27T20:46:52.148384+00:00'
+[2024-05-27T20:47:02.184+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-27T20:47:02.185+0000] {logging_mixin.py:188} INFO - Starting job 2
+[2024-05-27T20:47:02.222+0000] {logging_mixin.py:188} INFO - Files processed successfully
+[2024-05-27T20:47:02.224+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-27T20:47:02.225+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-27T20:47:02.240+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=process_sales, task_id=convert_to_avro, run_id=manual__2024-05-27T20:46:52.148384+00:00, execution_date=20240527T204652, start_date=20240527T204701, end_date=20240527T204702
+[2024-05-27T20:47:02.284+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-27T20:47:02.309+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-27T20:47:02.311+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

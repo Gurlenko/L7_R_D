@@ -1,0 +1,23 @@
+[2024-05-29T18:56:52.000+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-29T18:56:52.017+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_dag_1.get_rates manual__2024-05-29T18:55:08.757932+00:00 [queued]>
+[2024-05-29T18:56:52.024+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_dag_1.get_rates manual__2024-05-29T18:55:08.757932+00:00 [queued]>
+[2024-05-29T18:56:52.025+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 5
+[2024-05-29T18:56:52.037+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_rates> on 2024-05-29 18:55:08.757932+00:00
+[2024-05-29T18:56:52.045+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=378) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-29T18:56:52.048+0000] {standard_task_runner.py:63} INFO - Started process 382 to run task
+[2024-05-29T18:56:52.052+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'example_dag_1', 'get_rates', 'manual__2024-05-29T18:55:08.757932+00:00', '--job-id', '2598', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpfjvbdrg8']
+[2024-05-29T18:56:52.061+0000] {standard_task_runner.py:91} INFO - Job 2598: Subtask get_rates
+[2024-05-29T18:56:52.146+0000] {task_command.py:426} INFO - Running <TaskInstance: example_dag_1.get_rates manual__2024-05-29T18:55:08.757932+00:00 [running]> on host 6ecac41592ab
+[2024-05-29T18:56:52.341+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gurlenko.13032001@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_dag_1' AIRFLOW_CTX_TASK_ID='get_rates' AIRFLOW_CTX_EXECUTION_DATE='2024-05-29T18:55:08.757932+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-29T18:55:08.757932+00:00'
+[2024-05-29T18:56:52.345+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-29T18:56:52.357+0000] {base.py:84} INFO - Using connection ID 'coin_conn' for task execution.
+[2024-05-29T18:56:52.448+0000] {logging_mixin.py:188} INFO - Current rate 67378.8174
+[2024-05-29T18:56:52.464+0000] {logging_mixin.py:188} INFO - RATE: 67378.8174
+[2024-05-29T18:56:52.465+0000] {python.py:237} INFO - Done. Returned value was: 67378.8174
+[2024-05-29T18:56:52.466+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-29T18:56:52.490+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=example_dag_1, task_id=get_rates, run_id=manual__2024-05-29T18:55:08.757932+00:00, execution_date=20240529T185508, start_date=20240529T185652, end_date=20240529T185652
+[2024-05-29T18:56:52.573+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-29T18:56:52.612+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-29T18:56:52.615+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

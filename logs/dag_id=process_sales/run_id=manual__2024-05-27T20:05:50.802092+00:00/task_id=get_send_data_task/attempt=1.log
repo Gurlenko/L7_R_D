@@ -1,0 +1,69 @@
+[2024-05-27T20:05:53.103+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-27T20:05:53.138+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: process_sales.get_send_data_task manual__2024-05-27T20:05:50.802092+00:00 [queued]>
+[2024-05-27T20:05:53.149+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: process_sales.get_send_data_task manual__2024-05-27T20:05:50.802092+00:00 [queued]>
+[2024-05-27T20:05:53.150+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-05-27T20:05:53.169+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_send_data_task> on 2024-05-27 20:05:50.802092+00:00
+[2024-05-27T20:05:53.176+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=4762) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-27T20:05:53.178+0000] {standard_task_runner.py:63} INFO - Started process 4764 to run task
+[2024-05-27T20:05:53.178+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'process_sales', 'get_send_data_task', 'manual__2024-05-27T20:05:50.802092+00:00', '--job-id', '2439', '--raw', '--subdir', 'DAGS_FOLDER/process_sales.py', '--cfg-path', '/tmp/tmpgx5_boj5']
+[2024-05-27T20:05:53.181+0000] {standard_task_runner.py:91} INFO - Job 2439: Subtask get_send_data_task
+[2024-05-27T20:05:53.250+0000] {task_command.py:426} INFO - Running <TaskInstance: process_sales.get_send_data_task manual__2024-05-27T20:05:50.802092+00:00 [running]> on host 6ecac41592ab
+[2024-05-27T20:05:53.368+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='gurlenko.1488@gmail.com' AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='process_sales' AIRFLOW_CTX_TASK_ID='get_send_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-27T20:05:50.802092+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-27T20:05:50.802092+00:00'
+[2024-05-27T20:05:53.372+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-27T20:05:53.373+0000] {logging_mixin.py:188} INFO - Starting job 1
+[2024-05-27T20:05:53.375+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-27T20:05:53.376+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/process_sales.py", line 20, in run_job_1
+    response = requests.post('http://host.docker.internal:8081/', json=data_job1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/sessions.py", line 486, in prepare_request
+    p.prepare(
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 371, in prepare
+    self.prepare_body(data, files, json)
+  File "/home/airflow/.local/lib/python3.12/site-packages/requests/models.py", line 511, in prepare_body
+    body = complexjson.dumps(json, allow_nan=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type type is not JSON serializable
+[2024-05-27T20:05:53.395+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=process_sales, task_id=get_send_data_task, run_id=manual__2024-05-27T20:05:50.802092+00:00, execution_date=20240527T200550, start_date=20240527T200553, end_date=20240527T200553
+[2024-05-27T20:05:53.413+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 2439 for task get_send_data_task (Object of type type is not JSON serializable; 4764)
+[2024-05-27T20:05:53.442+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-27T20:05:53.476+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-27T20:05:53.478+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
